@@ -1,0 +1,87 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  color: #333;
+}
+header {
+  background: #222;
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
+}
+nav a {
+  margin: 0 15px;
+  color: #fff;
+  text-decoration: none;
+}
+#hero {
+  padding: 2rem;
+  background: #e0e0e0;
+  text-align: center;
+}
+section {
+  padding: 2rem;
+  max-width: 1000px;
+  margin: auto;
+  background-color: #fff;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+form {
+  display: flex;
+  flex-direction: column;
+}
+form label {
+  margin-top: 1rem;
+}
+form input,
+form textarea {
+  padding: 0.5rem;
+  font-size: 1rem;
+  margin-top: 0.5rem;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+form button {
+  margin-top: 1.5rem;
+  padding: 0.7rem;
+  font-size: 1rem;
+  background-color: #222;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+form button:hover {
+  background-color: #444;
+}
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #222;
+  color: #fff;
+  margin-top: 1rem;
+}
+.gallery-placeholder {
+  text-align: center;
+  padding: 2rem;
+  background: #f0f0f0;
+  border: 1px dashed #999;
+}
+@media (max-width: 600px) {
+  nav a {
+    display: block;
+    margin: 10px 0;
+  }
+  section {
+    padding: 1rem;
+  }
+  form input,
+  form textarea {
+    font-size: 1rem;
+  }
+}
